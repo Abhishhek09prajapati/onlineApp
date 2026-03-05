@@ -21,13 +21,6 @@ body {
     position: absolute;
 }
 
-/* Back Arrow */
-#backarrow {
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-}
-
 /* Game Card */
 .divgamelinks {
     width: 90%;

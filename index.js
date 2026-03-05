@@ -27,7 +27,3 @@ fetch("https://opensheet.elk.sh/1G5kY3GGIv-wyA8qq-Um_SazeQgzUzyVMCfRtXXAzrVA/She
         })
     });
 });
-
-document.getElementById('backarrow').addEventListener("click",()=>{
-    document.getElementsByClassName('viewDiv')[0].style.display = "none"
-})
