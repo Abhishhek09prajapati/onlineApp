@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(216, 8, 8);
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+/* View Screen */
+.viewDiv {
+    width: 100%;
+    min-height: 100vh;
+    background-color: green;
+    position: absolute;
+}
+
+/* Back Arrow */
+#backarrow {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Game Card */
+.divgamelinks {
+    width: 90%;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.divgamelinks:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Image */
+.divgamelinks img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+}
+
+/* Title */
+.divgamelinks h2 {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Buttons Row */
+.divgamelinks span {
+    width: 100%;
+    display: flex;
+    height: auto;
+    line-height: normal;
+
+}
+
+.divgamelinks span button:hover {
+    background: #355be0;
+}
+
+/* Mobile */
+@media (max-width:480px) {
+
+    .divgamelinks span {
+        flex-direction: column;
+    }
+
+    .divgamelinks span button {
+        width: 100%;
+    }
+
+}
