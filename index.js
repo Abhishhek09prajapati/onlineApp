@@ -10,7 +10,7 @@ fetch("https://opensheet.elk.sh/1G5kY3GGIv-wyA8qq-Um_SazeQgzUzyVMCfRtXXAzrVA/She
         const span = document.createElement('span')
 
         h2.innerText = `${row.CompanyName}` ;
-        img.src = "/youtube.png" || row.images
+        img.src =   `./image/${row.images}`
         div.classList = "divgamelinks" ;
         span.innerHTML =` ${row.descreption} ` ;
         // div.innerText = row.CompanyName; 
