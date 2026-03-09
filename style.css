@@ -11,6 +11,9 @@ body {
     background-color: rgb(216, 8, 8);
     position: relative;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
 }
 
 /* View Screen */
