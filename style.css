@@ -35,7 +35,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     text-align: center;
     transition: 0.3s;
-    height: 210px;
+    height: 240px;
 }
 
 /* Hover effect */
@@ -63,8 +63,9 @@ body {
 /* Buttons Row */
 .divgamelinks span {
     width: 100%;
-    display: flex;
-    height: auto;
+    /* background-color: #355be0; */
+    display: inline;
+    height: max-content;
     line-height: normal;
     text-align: center;
 
